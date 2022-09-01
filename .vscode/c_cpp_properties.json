@@ -1,19 +1,18 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/opt/ros/melodic/include/**",
+                "/usr/local/include/**",
+                "./include/handwritten-slam/**"
             ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ],
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-gcc-x64",
-            "compilerPath": "D:\\MinGW\\mingw64\\bin\\g++.exe"
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64"
         }
     ],
     "version": 4
