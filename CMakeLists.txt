@@ -27,6 +27,7 @@ find_package(OpenCV 3.2 REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(Pangolin REQUIRED)
 find_package(Sophus REQUIRED)
+find_package(FMT REQUIRED)
 #添加文件地址
 include_directories(
    ${PROJECT_SOURCE_DIR}
@@ -42,21 +43,30 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
 
 #创建共享库
-add_library( ${PROJECT_NAME} SHARED
+#原本这里有个SHARE 但是会报错，这是由于动态库和静态库不能混用
+#TODO:静态库和动态库的区别
+add_library( ${PROJECT_NAME} 
 #cpp文件
 #h文件
 src/camera.cpp
+src/Frame.cpp
+src/map.cpp
+src/mappiont.cpp
 include/handwritten_slam/camera.h
 include/handwritten_slam/common_include.h
+include/handwritten_slam/Frame.h
+include/handwritten_slam/map.h
+include/handwritten_slam/mappiont.h
 )
 
 #创建可执行文件
-add_executable(camera src/camera.cpp)
+#add_executable(camera src/camera.cpp)   没有main函数 不用创建可执行文件，只创建有main函数的
 target_link_libraries(
 ${PROJECT_NAME}
 ${OpenCV_LIBS}
 ${EIGEN3_LIBS}
 ${Pangolin_LIBRARIES}
 ${Sophus_LIBRARIES}
+fmt::fmt
 )
-target_link_libraries(camera ${PROJECT_NAME})
+#target_link_libraries(camera ${PROJECT_NAME})

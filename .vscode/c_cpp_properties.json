@@ -6,12 +6,12 @@
                 "${workspaceFolder}/**",
                 "/opt/ros/melodic/include/**",
                 "/usr/local/include/**",
-                "./include/handwritten-slam/**"
+                "./include/handwritten_slam/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu11",
-            "cppStandard": "c++11",
+            "cppStandard": "c++14",
             "intelliSenseMode": "gcc-x64"
         }
     ],

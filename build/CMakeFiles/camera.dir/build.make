@@ -90,7 +90,7 @@ camera_EXTERNAL_OBJECTS =
 
 ../bin/camera: CMakeFiles/camera.dir/src/camera.cpp.o
 ../bin/camera: CMakeFiles/camera.dir/build.make
-../bin/camera: ../lib/libhandwritten_slam.so
+../bin/camera: libhandwritten_slam.a
 ../bin/camera: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
 ../bin/camera: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
 ../bin/camera: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
@@ -166,6 +166,7 @@ camera_EXTERNAL_OBJECTS =
 ../bin/camera: /usr/lib/x86_64-linux-gnu/libtiff.so
 ../bin/camera: /usr/lib/x86_64-linux-gnu/libIlmImf.so
 ../bin/camera: /usr/lib/x86_64-linux-gnu/liblz4.so
+../bin/camera: /usr/local/lib/libfmt.a
 ../bin/camera: CMakeFiles/camera.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/camera"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/camera.dir/link.txt --verbose=$(VERBOSE)

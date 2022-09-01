@@ -15,6 +15,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/lib/cmake/Pangolin/PangolinConfigVersion.cmake"
   "/usr/local/lib/cmake/Pangolin/PangolinTargets-release.cmake"
   "/usr/local/lib/cmake/Pangolin/PangolinTargets.cmake"
+  "/usr/local/lib/cmake/fmt/fmt-config-version.cmake"
+  "/usr/local/lib/cmake/fmt/fmt-config.cmake"
+  "/usr/local/lib/cmake/fmt/fmt-targets-release.cmake"
+  "/usr/local/lib/cmake/fmt/fmt-targets.cmake"
   "/usr/local/share/eigen3/cmake/Eigen3Config.cmake"
   "/usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake"
   "/usr/local/share/eigen3/cmake/Eigen3Targets.cmake"
@@ -63,5 +67,4 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/handwritten_slam.dir/DependInfo.cmake"
-  "CMakeFiles/camera.dir/DependInfo.cmake"
   )

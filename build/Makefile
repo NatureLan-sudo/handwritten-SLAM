@@ -123,18 +123,32 @@ handwritten_slam/fast:
 	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/build
 .PHONY : handwritten_slam/fast
 
-#=============================================================================
-# Target rules for targets named camera
+src/Frame.o: src/Frame.cpp.o
 
-# Build rule for target.
-camera: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 camera
-.PHONY : camera
+.PHONY : src/Frame.o
 
-# fast build rule for target.
-camera/fast:
-	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/build
-.PHONY : camera/fast
+# target to build an object file
+src/Frame.cpp.o:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o
+.PHONY : src/Frame.cpp.o
+
+src/Frame.i: src/Frame.cpp.i
+
+.PHONY : src/Frame.i
+
+# target to preprocess a source file
+src/Frame.cpp.i:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/Frame.cpp.i
+.PHONY : src/Frame.cpp.i
+
+src/Frame.s: src/Frame.cpp.s
+
+.PHONY : src/Frame.s
+
+# target to generate assembly for a file
+src/Frame.cpp.s:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/Frame.cpp.s
+.PHONY : src/Frame.cpp.s
 
 src/camera.o: src/camera.cpp.o
 
@@ -143,7 +157,6 @@ src/camera.o: src/camera.cpp.o
 # target to build an object file
 src/camera.cpp.o:
 	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/camera.cpp.o
-	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/src/camera.cpp.o
 .PHONY : src/camera.cpp.o
 
 src/camera.i: src/camera.cpp.i
@@ -153,7 +166,6 @@ src/camera.i: src/camera.cpp.i
 # target to preprocess a source file
 src/camera.cpp.i:
 	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/camera.cpp.i
-	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/src/camera.cpp.i
 .PHONY : src/camera.cpp.i
 
 src/camera.s: src/camera.cpp.s
@@ -163,8 +175,61 @@ src/camera.s: src/camera.cpp.s
 # target to generate assembly for a file
 src/camera.cpp.s:
 	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/camera.cpp.s
-	$(MAKE) -f CMakeFiles/camera.dir/build.make CMakeFiles/camera.dir/src/camera.cpp.s
 .PHONY : src/camera.cpp.s
+
+src/map.o: src/map.cpp.o
+
+.PHONY : src/map.o
+
+# target to build an object file
+src/map.cpp.o:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/map.cpp.o
+.PHONY : src/map.cpp.o
+
+src/map.i: src/map.cpp.i
+
+.PHONY : src/map.i
+
+# target to preprocess a source file
+src/map.cpp.i:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/map.cpp.i
+.PHONY : src/map.cpp.i
+
+src/map.s: src/map.cpp.s
+
+.PHONY : src/map.s
+
+# target to generate assembly for a file
+src/map.cpp.s:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/map.cpp.s
+.PHONY : src/map.cpp.s
+
+src/mappiont.o: src/mappiont.cpp.o
+
+.PHONY : src/mappiont.o
+
+# target to build an object file
+src/mappiont.cpp.o:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o
+.PHONY : src/mappiont.cpp.o
+
+src/mappiont.i: src/mappiont.cpp.i
+
+.PHONY : src/mappiont.i
+
+# target to preprocess a source file
+src/mappiont.cpp.i:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.i
+.PHONY : src/mappiont.cpp.i
+
+src/mappiont.s: src/mappiont.cpp.s
+
+.PHONY : src/mappiont.s
+
+# target to generate assembly for a file
+src/mappiont.cpp.s:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.s
+.PHONY : src/mappiont.cpp.s
 
 # Help Target
 help:
@@ -173,12 +238,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... handwritten_slam"
-	@echo "... camera"
+	@echo "... edit_cache"
+	@echo "... src/Frame.o"
+	@echo "... src/Frame.i"
+	@echo "... src/Frame.s"
 	@echo "... src/camera.o"
 	@echo "... src/camera.i"
 	@echo "... src/camera.s"
+	@echo "... src/map.o"
+	@echo "... src/map.i"
+	@echo "... src/map.s"
+	@echo "... src/mappiont.o"
+	@echo "... src/mappiont.i"
+	@echo "... src/mappiont.s"
 .PHONY : help
 
 

@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../include/handwritten_slam/Frame.h
+common_include.h
+../include/handwritten_slam/common_include.h
+camera.h
+../include/handwritten_slam/camera.h
+
 ../include/handwritten_slam/camera.h
 common_include.h
 ../include/handwritten_slam/common_include.h
@@ -29,12 +35,22 @@ sophus/se3.hpp
 -
 sophus/so3.hpp
 -
+opencv2/core.hpp
+-
+opencv2/highgui.hpp
+-
+
+/home/nature/handwritten-SLAM/src/Frame.cpp
+Frame.h
+/home/nature/handwritten-SLAM/src/Frame.h
 
 /home/nature/handwritten-SLAM/src/camera.cpp
 camera.h
 /home/nature/handwritten-SLAM/src/camera.h
-common_include.h
-/home/nature/handwritten-SLAM/src/common_include.h
+
+/home/nature/handwritten-SLAM/src/map.cpp
+
+/home/nature/handwritten-SLAM/src/mappiont.cpp
 
 /usr/local/include/eigen3/Eigen/Core
 src/Core/util/DisableStupidWarnings.h

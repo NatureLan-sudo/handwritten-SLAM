@@ -81,100 +81,107 @@ CMakeFiles/handwritten_slam.dir/src/camera.cpp.o.provides: CMakeFiles/handwritte
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.o.provides.build: CMakeFiles/handwritten_slam.dir/src/camera.cpp.o
 
 
+CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o: CMakeFiles/handwritten_slam.dir/flags.make
+CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o: ../src/Frame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o -c /home/nature/handwritten-SLAM/src/Frame.cpp
+
+CMakeFiles/handwritten_slam.dir/src/Frame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handwritten_slam.dir/src/Frame.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/Frame.cpp > CMakeFiles/handwritten_slam.dir/src/Frame.cpp.i
+
+CMakeFiles/handwritten_slam.dir/src/Frame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handwritten_slam.dir/src/Frame.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/Frame.cpp -o CMakeFiles/handwritten_slam.dir/src/Frame.cpp.s
+
+CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.requires:
+
+.PHONY : CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.requires
+
+CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.provides: CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.requires
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.provides.build
+.PHONY : CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.provides
+
+CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.provides.build: CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o
+
+
+CMakeFiles/handwritten_slam.dir/src/map.cpp.o: CMakeFiles/handwritten_slam.dir/flags.make
+CMakeFiles/handwritten_slam.dir/src/map.cpp.o: ../src/map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/handwritten_slam.dir/src/map.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/map.cpp.o -c /home/nature/handwritten-SLAM/src/map.cpp
+
+CMakeFiles/handwritten_slam.dir/src/map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handwritten_slam.dir/src/map.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/map.cpp > CMakeFiles/handwritten_slam.dir/src/map.cpp.i
+
+CMakeFiles/handwritten_slam.dir/src/map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handwritten_slam.dir/src/map.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/map.cpp -o CMakeFiles/handwritten_slam.dir/src/map.cpp.s
+
+CMakeFiles/handwritten_slam.dir/src/map.cpp.o.requires:
+
+.PHONY : CMakeFiles/handwritten_slam.dir/src/map.cpp.o.requires
+
+CMakeFiles/handwritten_slam.dir/src/map.cpp.o.provides: CMakeFiles/handwritten_slam.dir/src/map.cpp.o.requires
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/map.cpp.o.provides.build
+.PHONY : CMakeFiles/handwritten_slam.dir/src/map.cpp.o.provides
+
+CMakeFiles/handwritten_slam.dir/src/map.cpp.o.provides.build: CMakeFiles/handwritten_slam.dir/src/map.cpp.o
+
+
+CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o: CMakeFiles/handwritten_slam.dir/flags.make
+CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o: ../src/mappiont.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o -c /home/nature/handwritten-SLAM/src/mappiont.cpp
+
+CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/mappiont.cpp > CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.i
+
+CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/mappiont.cpp -o CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.s
+
+CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.requires:
+
+.PHONY : CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.requires
+
+CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.provides: CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.requires
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.provides.build
+.PHONY : CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.provides
+
+CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.provides.build: CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o
+
+
 # Object files for target handwritten_slam
 handwritten_slam_OBJECTS = \
-"CMakeFiles/handwritten_slam.dir/src/camera.cpp.o"
+"CMakeFiles/handwritten_slam.dir/src/camera.cpp.o" \
+"CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o" \
+"CMakeFiles/handwritten_slam.dir/src/map.cpp.o" \
+"CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o"
 
 # External object files for target handwritten_slam
 handwritten_slam_EXTERNAL_OBJECTS =
 
-../lib/libhandwritten_slam.so: CMakeFiles/handwritten_slam.dir/src/camera.cpp.o
-../lib/libhandwritten_slam.so: CMakeFiles/handwritten_slam.dir/build.make
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_xfeatures2d.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/local/lib/libpangolin.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.3.2.0
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libGLX.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libGLEW.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libEGL.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libSM.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libICE.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libX11.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libGLX.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libGLEW.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libEGL.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libSM.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libICE.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libX11.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libXext.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libdc1394.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libavcodec.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libavformat.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libavutil.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libswscale.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libavdevice.so
-../lib/libhandwritten_slam.so: /usr/lib/libOpenNI.so
-../lib/libhandwritten_slam.so: /usr/lib/libOpenNI2.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libpng.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libz.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libjpeg.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libtiff.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/libIlmImf.so
-../lib/libhandwritten_slam.so: /usr/lib/x86_64-linux-gnu/liblz4.so
-../lib/libhandwritten_slam.so: CMakeFiles/handwritten_slam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../lib/libhandwritten_slam.so"
+libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/src/camera.cpp.o
+libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o
+libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/src/map.cpp.o
+libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o
+libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/build.make
+libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libhandwritten_slam.a"
+	$(CMAKE_COMMAND) -P CMakeFiles/handwritten_slam.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/handwritten_slam.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/handwritten_slam.dir/build: ../lib/libhandwritten_slam.so
+CMakeFiles/handwritten_slam.dir/build: libhandwritten_slam.a
 
 .PHONY : CMakeFiles/handwritten_slam.dir/build
 
 CMakeFiles/handwritten_slam.dir/requires: CMakeFiles/handwritten_slam.dir/src/camera.cpp.o.requires
+CMakeFiles/handwritten_slam.dir/requires: CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.requires
+CMakeFiles/handwritten_slam.dir/requires: CMakeFiles/handwritten_slam.dir/src/map.cpp.o.requires
+CMakeFiles/handwritten_slam.dir/requires: CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.requires
 
 .PHONY : CMakeFiles/handwritten_slam.dir/requires
 
