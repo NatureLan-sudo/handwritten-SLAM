@@ -50,13 +50,15 @@ add_library( ${PROJECT_NAME}
 #h文件
 src/camera.cpp
 src/Frame.cpp
-src/map.cpp
-src/mappiont.cpp
+src/Map.cpp
+src/MapPoint.cpp
 include/handwritten_slam/camera.h
 include/handwritten_slam/common_include.h
 include/handwritten_slam/Frame.h
-include/handwritten_slam/map.h
-include/handwritten_slam/mappiont.h
+include/handwritten_slam/Map.h
+include/handwritten_slam/MapPoint.h
+include/handwritten_slam/config.h
+
 )
 
 #创建可执行文件

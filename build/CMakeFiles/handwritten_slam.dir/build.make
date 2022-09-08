@@ -60,15 +60,15 @@ include CMakeFiles/handwritten_slam.dir/flags.make
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.o: CMakeFiles/handwritten_slam.dir/flags.make
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.o: ../src/camera.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/handwritten_slam.dir/src/camera.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/camera.cpp.o -c /home/nature/handwritten-SLAM/src/camera.cpp
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/camera.cpp.o -c /home/nature/handwritten-SLAM/src/camera.cpp
 
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handwritten_slam.dir/src/camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/camera.cpp > CMakeFiles/handwritten_slam.dir/src/camera.cpp.i
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/camera.cpp > CMakeFiles/handwritten_slam.dir/src/camera.cpp.i
 
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handwritten_slam.dir/src/camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/camera.cpp -o CMakeFiles/handwritten_slam.dir/src/camera.cpp.s
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/camera.cpp -o CMakeFiles/handwritten_slam.dir/src/camera.cpp.s
 
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/handwritten_slam.dir/src/camera.cpp.o.provides.build: CMakeFiles/hand
 CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o: CMakeFiles/handwritten_slam.dir/flags.make
 CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o: ../src/Frame.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o -c /home/nature/handwritten-SLAM/src/Frame.cpp
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o -c /home/nature/handwritten-SLAM/src/Frame.cpp
 
 CMakeFiles/handwritten_slam.dir/src/Frame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handwritten_slam.dir/src/Frame.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/Frame.cpp > CMakeFiles/handwritten_slam.dir/src/Frame.cpp.i
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/Frame.cpp > CMakeFiles/handwritten_slam.dir/src/Frame.cpp.i
 
 CMakeFiles/handwritten_slam.dir/src/Frame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handwritten_slam.dir/src/Frame.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/Frame.cpp -o CMakeFiles/handwritten_slam.dir/src/Frame.cpp.s
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/Frame.cpp -o CMakeFiles/handwritten_slam.dir/src/Frame.cpp.s
 
 CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.requires:
 
@@ -105,68 +105,68 @@ CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.provides: CMakeFiles/handwritten
 CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.provides.build: CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o
 
 
-CMakeFiles/handwritten_slam.dir/src/map.cpp.o: CMakeFiles/handwritten_slam.dir/flags.make
-CMakeFiles/handwritten_slam.dir/src/map.cpp.o: ../src/map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/handwritten_slam.dir/src/map.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/map.cpp.o -c /home/nature/handwritten-SLAM/src/map.cpp
+CMakeFiles/handwritten_slam.dir/src/Map.cpp.o: CMakeFiles/handwritten_slam.dir/flags.make
+CMakeFiles/handwritten_slam.dir/src/Map.cpp.o: ../src/Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/handwritten_slam.dir/src/Map.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/Map.cpp.o -c /home/nature/handwritten-SLAM/src/Map.cpp
 
-CMakeFiles/handwritten_slam.dir/src/map.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handwritten_slam.dir/src/map.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/map.cpp > CMakeFiles/handwritten_slam.dir/src/map.cpp.i
+CMakeFiles/handwritten_slam.dir/src/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handwritten_slam.dir/src/Map.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/Map.cpp > CMakeFiles/handwritten_slam.dir/src/Map.cpp.i
 
-CMakeFiles/handwritten_slam.dir/src/map.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handwritten_slam.dir/src/map.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/map.cpp -o CMakeFiles/handwritten_slam.dir/src/map.cpp.s
+CMakeFiles/handwritten_slam.dir/src/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handwritten_slam.dir/src/Map.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/Map.cpp -o CMakeFiles/handwritten_slam.dir/src/Map.cpp.s
 
-CMakeFiles/handwritten_slam.dir/src/map.cpp.o.requires:
+CMakeFiles/handwritten_slam.dir/src/Map.cpp.o.requires:
 
-.PHONY : CMakeFiles/handwritten_slam.dir/src/map.cpp.o.requires
+.PHONY : CMakeFiles/handwritten_slam.dir/src/Map.cpp.o.requires
 
-CMakeFiles/handwritten_slam.dir/src/map.cpp.o.provides: CMakeFiles/handwritten_slam.dir/src/map.cpp.o.requires
-	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/map.cpp.o.provides.build
-.PHONY : CMakeFiles/handwritten_slam.dir/src/map.cpp.o.provides
+CMakeFiles/handwritten_slam.dir/src/Map.cpp.o.provides: CMakeFiles/handwritten_slam.dir/src/Map.cpp.o.requires
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/Map.cpp.o.provides.build
+.PHONY : CMakeFiles/handwritten_slam.dir/src/Map.cpp.o.provides
 
-CMakeFiles/handwritten_slam.dir/src/map.cpp.o.provides.build: CMakeFiles/handwritten_slam.dir/src/map.cpp.o
+CMakeFiles/handwritten_slam.dir/src/Map.cpp.o.provides.build: CMakeFiles/handwritten_slam.dir/src/Map.cpp.o
 
 
-CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o: CMakeFiles/handwritten_slam.dir/flags.make
-CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o: ../src/mappiont.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o -c /home/nature/handwritten-SLAM/src/mappiont.cpp
+CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o: CMakeFiles/handwritten_slam.dir/flags.make
+CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o: ../src/MapPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o -c /home/nature/handwritten-SLAM/src/MapPoint.cpp
 
-CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/mappiont.cpp > CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.i
+CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nature/handwritten-SLAM/src/MapPoint.cpp > CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.i
 
-CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/mappiont.cpp -o CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.s
+CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nature/handwritten-SLAM/src/MapPoint.cpp -o CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.s
 
-CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.requires:
+CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o.requires:
 
-.PHONY : CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.requires
+.PHONY : CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o.requires
 
-CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.provides: CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.requires
-	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.provides.build
-.PHONY : CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.provides
+CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o.provides: CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o.requires
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o.provides.build
+.PHONY : CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o.provides
 
-CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.provides.build: CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o
+CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o.provides.build: CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o
 
 
 # Object files for target handwritten_slam
 handwritten_slam_OBJECTS = \
 "CMakeFiles/handwritten_slam.dir/src/camera.cpp.o" \
 "CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o" \
-"CMakeFiles/handwritten_slam.dir/src/map.cpp.o" \
-"CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o"
+"CMakeFiles/handwritten_slam.dir/src/Map.cpp.o" \
+"CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o"
 
 # External object files for target handwritten_slam
 handwritten_slam_EXTERNAL_OBJECTS =
 
 libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/src/camera.cpp.o
 libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o
-libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/src/map.cpp.o
-libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o
+libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/src/Map.cpp.o
+libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o
 libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/build.make
 libhandwritten_slam.a: CMakeFiles/handwritten_slam.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nature/handwritten-SLAM/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libhandwritten_slam.a"
@@ -180,8 +180,8 @@ CMakeFiles/handwritten_slam.dir/build: libhandwritten_slam.a
 
 CMakeFiles/handwritten_slam.dir/requires: CMakeFiles/handwritten_slam.dir/src/camera.cpp.o.requires
 CMakeFiles/handwritten_slam.dir/requires: CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o.requires
-CMakeFiles/handwritten_slam.dir/requires: CMakeFiles/handwritten_slam.dir/src/map.cpp.o.requires
-CMakeFiles/handwritten_slam.dir/requires: CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o.requires
+CMakeFiles/handwritten_slam.dir/requires: CMakeFiles/handwritten_slam.dir/src/Map.cpp.o.requires
+CMakeFiles/handwritten_slam.dir/requires: CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o.requires
 
 .PHONY : CMakeFiles/handwritten_slam.dir/requires
 

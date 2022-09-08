@@ -2,7 +2,7 @@
  * @Author: NatureLan-sudo lantianran282@163.com
  * @Date: 2022-09-01 20:49:59
  * @LastEditors: NatureLan-sudo lantianran282@163.com
- * @LastEditTime: 2022-09-01 22:26:18
+ * @LastEditTime: 2022-09-08 21:55:46
  * @FilePath: /handwritten-SLAM/src/Frame.cpp
  * @Description: 
  * 
@@ -22,6 +22,7 @@ namespace myslam{
      */    
     Frame::~Frame() {}
 
+
     /**
      * @description: 通过赋值构造关键帧，此时所有的类成员变量都被赋值了。对于每一个帧来说都有这些数值
      * @return {*}
@@ -29,6 +30,8 @@ namespace myslam{
     Frame::Frame ( long id, double time_stamp, SE3d T_c_w ,  Camera::Ptr camera , Mat color , Mat depth ) :
     id_(id), time_stamp_(time_stamp), T_c_w_(T_c_w), camera_(camera), color_(color), depth_(depth) {           
     }
+
+
      /**
       * @description:  获取相机的光心，就是相机坐标系相对于世界坐标系的平移
       * @return {*}
@@ -44,6 +47,7 @@ namespace myslam{
         return pixel(0) > 0&& pixel(1) >0 &&  pixel(0) < color_.rows  &&  pixel(1) <color_.cols ;   //* 像素值均大于零， 同时，对于象征着图像的矩阵color，像素值应该小于相应的行和列。
      }
 
+
      /**
       * @description: 创造一个关键帧
       * @return {*}
@@ -53,6 +57,8 @@ namespace myslam{
     static long factory_id = 0;
     return Frame::Ptr( new Frame(factory_id++) );
 }
+
+
 /**
  * @description: 获取三维点的深度
  * @param {KeyPoint&} kp 

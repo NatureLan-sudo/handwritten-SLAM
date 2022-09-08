@@ -17,14 +17,6 @@ common_include.h
 ../include/handwritten_slam/common_include.h
 
 ../include/handwritten_slam/common_include.h
-iostream
--
-vector
--
-list
--
-memory
--
 eigen3/Eigen/Core
 -
 eigen3/Eigen/Dense
@@ -39,18 +31,34 @@ opencv2/core.hpp
 -
 opencv2/highgui.hpp
 -
+iostream
+-
+vector
+-
+list
+-
+memory
+-
+unordered_map
+-
+string
+-
+set
+-
+map
+-
 
 /home/nature/handwritten-SLAM/src/Frame.cpp
 Frame.h
 /home/nature/handwritten-SLAM/src/Frame.h
 
+/home/nature/handwritten-SLAM/src/Map.cpp
+
+/home/nature/handwritten-SLAM/src/MapPoint.cpp
+
 /home/nature/handwritten-SLAM/src/camera.cpp
 camera.h
 /home/nature/handwritten-SLAM/src/camera.h
-
-/home/nature/handwritten-SLAM/src/map.cpp
-
-/home/nature/handwritten-SLAM/src/mappiont.cpp
 
 /usr/local/include/eigen3/Eigen/Core
 src/Core/util/DisableStupidWarnings.h

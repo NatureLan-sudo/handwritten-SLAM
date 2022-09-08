@@ -5,9 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nature/handwritten-SLAM/src/Frame.cpp" "/home/nature/handwritten-SLAM/build/CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o"
+  "/home/nature/handwritten-SLAM/src/Map.cpp" "/home/nature/handwritten-SLAM/build/CMakeFiles/handwritten_slam.dir/src/Map.cpp.o"
+  "/home/nature/handwritten-SLAM/src/MapPoint.cpp" "/home/nature/handwritten-SLAM/build/CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o"
   "/home/nature/handwritten-SLAM/src/camera.cpp" "/home/nature/handwritten-SLAM/build/CMakeFiles/handwritten_slam.dir/src/camera.cpp.o"
-  "/home/nature/handwritten-SLAM/src/map.cpp" "/home/nature/handwritten-SLAM/build/CMakeFiles/handwritten_slam.dir/src/map.cpp.o"
-  "/home/nature/handwritten-SLAM/src/mappiont.cpp" "/home/nature/handwritten-SLAM/build/CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

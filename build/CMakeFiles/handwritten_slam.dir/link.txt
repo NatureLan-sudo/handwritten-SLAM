@@ -1,2 +1,2 @@
-/usr/bin/ar qc libhandwritten_slam.a  CMakeFiles/handwritten_slam.dir/src/camera.cpp.o CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o CMakeFiles/handwritten_slam.dir/src/map.cpp.o CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o
+/usr/bin/ar qc libhandwritten_slam.a  CMakeFiles/handwritten_slam.dir/src/camera.cpp.o CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o CMakeFiles/handwritten_slam.dir/src/Map.cpp.o CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o
 /usr/bin/ranlib libhandwritten_slam.a

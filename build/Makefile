@@ -150,6 +150,60 @@ src/Frame.cpp.s:
 	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/Frame.cpp.s
 .PHONY : src/Frame.cpp.s
 
+src/Map.o: src/Map.cpp.o
+
+.PHONY : src/Map.o
+
+# target to build an object file
+src/Map.cpp.o:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/Map.cpp.o
+.PHONY : src/Map.cpp.o
+
+src/Map.i: src/Map.cpp.i
+
+.PHONY : src/Map.i
+
+# target to preprocess a source file
+src/Map.cpp.i:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/Map.cpp.i
+.PHONY : src/Map.cpp.i
+
+src/Map.s: src/Map.cpp.s
+
+.PHONY : src/Map.s
+
+# target to generate assembly for a file
+src/Map.cpp.s:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/Map.cpp.s
+.PHONY : src/Map.cpp.s
+
+src/MapPoint.o: src/MapPoint.cpp.o
+
+.PHONY : src/MapPoint.o
+
+# target to build an object file
+src/MapPoint.cpp.o:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o
+.PHONY : src/MapPoint.cpp.o
+
+src/MapPoint.i: src/MapPoint.cpp.i
+
+.PHONY : src/MapPoint.i
+
+# target to preprocess a source file
+src/MapPoint.cpp.i:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.i
+.PHONY : src/MapPoint.cpp.i
+
+src/MapPoint.s: src/MapPoint.cpp.s
+
+.PHONY : src/MapPoint.s
+
+# target to generate assembly for a file
+src/MapPoint.cpp.s:
+	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.s
+.PHONY : src/MapPoint.cpp.s
+
 src/camera.o: src/camera.cpp.o
 
 .PHONY : src/camera.o
@@ -177,60 +231,6 @@ src/camera.cpp.s:
 	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/camera.cpp.s
 .PHONY : src/camera.cpp.s
 
-src/map.o: src/map.cpp.o
-
-.PHONY : src/map.o
-
-# target to build an object file
-src/map.cpp.o:
-	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/map.cpp.o
-.PHONY : src/map.cpp.o
-
-src/map.i: src/map.cpp.i
-
-.PHONY : src/map.i
-
-# target to preprocess a source file
-src/map.cpp.i:
-	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/map.cpp.i
-.PHONY : src/map.cpp.i
-
-src/map.s: src/map.cpp.s
-
-.PHONY : src/map.s
-
-# target to generate assembly for a file
-src/map.cpp.s:
-	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/map.cpp.s
-.PHONY : src/map.cpp.s
-
-src/mappiont.o: src/mappiont.cpp.o
-
-.PHONY : src/mappiont.o
-
-# target to build an object file
-src/mappiont.cpp.o:
-	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o
-.PHONY : src/mappiont.cpp.o
-
-src/mappiont.i: src/mappiont.cpp.i
-
-.PHONY : src/mappiont.i
-
-# target to preprocess a source file
-src/mappiont.cpp.i:
-	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.i
-.PHONY : src/mappiont.cpp.i
-
-src/mappiont.s: src/mappiont.cpp.s
-
-.PHONY : src/mappiont.s
-
-# target to generate assembly for a file
-src/mappiont.cpp.s:
-	$(MAKE) -f CMakeFiles/handwritten_slam.dir/build.make CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.s
-.PHONY : src/mappiont.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,15 +243,15 @@ help:
 	@echo "... src/Frame.o"
 	@echo "... src/Frame.i"
 	@echo "... src/Frame.s"
+	@echo "... src/Map.o"
+	@echo "... src/Map.i"
+	@echo "... src/Map.s"
+	@echo "... src/MapPoint.o"
+	@echo "... src/MapPoint.i"
+	@echo "... src/MapPoint.s"
 	@echo "... src/camera.o"
 	@echo "... src/camera.i"
 	@echo "... src/camera.s"
-	@echo "... src/map.o"
-	@echo "... src/map.i"
-	@echo "... src/map.s"
-	@echo "... src/mappiont.o"
-	@echo "... src/mappiont.i"
-	@echo "... src/mappiont.s"
 .PHONY : help
 
 

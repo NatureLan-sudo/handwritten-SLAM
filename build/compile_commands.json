@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/nature/handwritten-SLAM/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DCOMPILEDWITHC11 -DFMT_LOCALE -I/home/nature/handwritten-SLAM -I/home/nature/handwritten-SLAM/include/handwritten_slam -isystem /usr/local/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /usr/include/opencv -isystem /usr/local/include   -std=c++11 -g   -std=gnu++11 -o CMakeFiles/handwritten_slam.dir/src/camera.cpp.o -c /home/nature/handwritten-SLAM/src/camera.cpp",
+  "file": "/home/nature/handwritten-SLAM/src/camera.cpp"
+},
+{
+  "directory": "/home/nature/handwritten-SLAM/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DCOMPILEDWITHC11 -DFMT_LOCALE -I/home/nature/handwritten-SLAM -I/home/nature/handwritten-SLAM/include/handwritten_slam -isystem /usr/local/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /usr/include/opencv -isystem /usr/local/include   -std=c++11 -g   -std=gnu++11 -o CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o -c /home/nature/handwritten-SLAM/src/Frame.cpp",
+  "file": "/home/nature/handwritten-SLAM/src/Frame.cpp"
+},
+{
+  "directory": "/home/nature/handwritten-SLAM/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DCOMPILEDWITHC11 -DFMT_LOCALE -I/home/nature/handwritten-SLAM -I/home/nature/handwritten-SLAM/include/handwritten_slam -isystem /usr/local/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /usr/include/opencv -isystem /usr/local/include   -std=c++11 -g   -std=gnu++11 -o CMakeFiles/handwritten_slam.dir/src/Map.cpp.o -c /home/nature/handwritten-SLAM/src/Map.cpp",
+  "file": "/home/nature/handwritten-SLAM/src/Map.cpp"
+},
+{
+  "directory": "/home/nature/handwritten-SLAM/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7  -DCOMPILEDWITHC11 -DFMT_LOCALE -I/home/nature/handwritten-SLAM -I/home/nature/handwritten-SLAM/include/handwritten_slam -isystem /usr/local/include/eigen3 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /usr/include/opencv -isystem /usr/local/include   -std=c++11 -g   -std=gnu++11 -o CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o -c /home/nature/handwritten-SLAM/src/MapPoint.cpp",
+  "file": "/home/nature/handwritten-SLAM/src/MapPoint.cpp"
+}
+]

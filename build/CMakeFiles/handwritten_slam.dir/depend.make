@@ -236,6 +236,10 @@ CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o: /usr/local/lib/cmake/Pangolin/.
 CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o: /usr/local/lib/cmake/Pangolin/../../../include/sophus/so3.hpp
 CMakeFiles/handwritten_slam.dir/src/Frame.cpp.o: /usr/local/lib/cmake/Pangolin/../../../include/sophus/types.hpp
 
+CMakeFiles/handwritten_slam.dir/src/Map.cpp.o: ../src/Map.cpp
+
+CMakeFiles/handwritten_slam.dir/src/MapPoint.cpp.o: ../src/MapPoint.cpp
+
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.o: ../include/handwritten_slam/camera.h
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.o: ../include/handwritten_slam/common_include.h
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.o: ../src/camera.cpp
@@ -469,8 +473,4 @@ CMakeFiles/handwritten_slam.dir/src/camera.cpp.o: /usr/local/lib/cmake/Pangolin/
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.o: /usr/local/lib/cmake/Pangolin/../../../include/sophus/so2.hpp
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.o: /usr/local/lib/cmake/Pangolin/../../../include/sophus/so3.hpp
 CMakeFiles/handwritten_slam.dir/src/camera.cpp.o: /usr/local/lib/cmake/Pangolin/../../../include/sophus/types.hpp
-
-CMakeFiles/handwritten_slam.dir/src/map.cpp.o: ../src/map.cpp
-
-CMakeFiles/handwritten_slam.dir/src/mappiont.cpp.o: ../src/mappiont.cpp
 
